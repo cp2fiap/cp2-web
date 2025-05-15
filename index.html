@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealership</title>
+    <link rel="stylesheet" href="src/css/stylehome.css">
+</head>
+<body>
+    <header>
+        <h1>CarroEvolution</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#cars">Outros Carros</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We offer a wide range of cars to suit your needs. Our dealership is committed to providing the best customer service.</p>
+        </section>
+
+        <section id="cars">
+            <h2>Our Cars</h2>
+            <div class="car-list">
+                <div class="car-item">
+                    <h3>Car Model 1</h3>
+                    <p>Details about Car Model 1.</p>
+                </div>
+                <div class="car-item">
+                    <h3>Car Model 2</h3>
+                    <p>Details about Car Model 2.</p>
+                </div>
+                <div class="car-item">
+                    <h3>Car Model 3</h3>
+                    <p>Details about Car Model 3.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Car Dealership. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
