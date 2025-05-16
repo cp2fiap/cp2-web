@@ -1,68 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Dealership</title>
-    <link rel="stylesheet" href="src/css/stylehome.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electric Car - Home</title>
+
+  
+  <link rel="stylesheet" href="./src/css/style.css" />
 </head>
 <body>
-    <header>
-        <h1>CarroEvolution</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#cars">Outros Carros</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="container">
+      <h1>Electric Car</h1>
+      <nav>
+        <a href="#">Nossos carros</a>
+        <a href="#">Compra</a>
+        <a href="#">Sobre marca</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section id="about">
-            <h2>Sobre o Projeto</h2>
-            <p>We offer a wide range of cars to suit your needs. Our dealership is committed to providing the best customer service.</p>
-        </section>
+  <section class="hero">
+    
+    <img src="src/assets/Peugeot-front.svg" alt="Carro Elétrico" />
+    <div class="hero-text">
+      <h2>Explore o futuro da mobilidade</h2>
+      <a href="#" class="btn">Explorar Modelo</a>
+    </div>
+  </section>
 
-        <section id="cars">
-            <h2>Our Cars</h2>
-            <div class="car-list">
-                <div class="car-item">
-                    <h3>Car Model 1</h3>
-                    <p>Details about Car Model 1.</p>
-                </div>
-                <div class="car-item">
-                    <h3>Car Model 2</h3>
-                    <p>Details about Car Model 2.</p>
-                </div>
-                <div class="car-item">
-                    <h3>Car Model 3</h3>
-                    <p>Details about Car Model 3.</p>
-                </div>
-            </div>
-        </section>
+  <section class="modelos">
+    <div class="modelo">
+      <img src="assets/peugeot-back.jpg" alt="SUV Peugeot" />
+      <h3>Novo SUV da Peugeot</h3>
+      <p>Carro 100% elétrico com conforto e segurança. A partir de R$199.900</p>
+    </div>
+    <div class="modelo">
+      <img src="assets/peugeot-interior.jpg" alt="Interior do carro" />
+      <h3>O mais moderno da categoria</h3>
+      <p>Interior de luxo com tecnologia e autonomia surpreendente.</p>
+    </div>
+  </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+  <section class="especificacoes">
+    <h2>Descubra o prazer em dirigir um carro 100% elétrico</h2>
+    <div class="valores">
+      <div><strong>261 km</strong><br>de autonomia</div>
+      <div><strong>30 min</strong><br>recarga rápida</div>
+      <div><strong>54 kWh</strong><br>bateria</div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2023 Car Dealership. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>© 2025 Electric Car. Todos os direitos reservados.</p>
+  </footer>
 
-    <script src="js/scripts.js"></script>
+  
+  <script src="./src/assets/css/js/"></script>
 </body>
 </html>
