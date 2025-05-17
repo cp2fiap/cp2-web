@@ -61,33 +61,38 @@
         <h3>ID.4</h3>
         <p>SUV 100% elétrico, com design moderno, autonomia de até 500 km e tecnologia inteligente para uma condução sustentável e confortável.
 Se quiser algo ainda mais enxuto, posso adaptar!</p>
+          <a href="./src/pages/modelo3.html">Clique aqui</a>
       </div>
       <div class="modelo">
         <img src="./src/assets/cybertruckphoto1.png" alt="Modelo 2" />
         <h3>Cybertruck</h3>
         <p>Picape elétrica futurista com design robusto, alta resistência, aceleração impressionante e autonomia de até 800 km — feita para qualquer terreno.</p>
+        <a href="./src/pages/modelo2.html">Clique aqui</a>
       </div>
       <div class="modelo">
         <img src="./src/assets/renaultphoto1.png" alt="Modelo 3" />
         <h3>Modelo 3</h3>
         <p>Compacto, eficiente e 100% elétrico, o E-Tech combina economia, tecnologia e mobilidade urbana sustentável com até 300 km de autonomia.</p>
+        <a href="./src/pages/modelo1.html">Clique aqui</a>
       </div>
   </section>
 
   <section class="formulario">
-    <h3 class="h3-formulario">Fale Conosco</h3>
-    <form action="#" method="post">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required />
+  <h3 class="h3-formulario">Fale Conosco</h3>
+  <form onsubmit="clicarEnviar(event)">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required />
 
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" required />
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required />
 
-      <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
-      <button type="submit">Enviar</button>
-    </form>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
 
   </section>
 
@@ -120,6 +125,6 @@ Se quiser algo ainda mais enxuto, posso adaptar!</p>
 
 
   
-  <script src="./src/assets/css/js/"></script>
+  <script src="./src/js/script.js"></script>
 </body>
 </html>
