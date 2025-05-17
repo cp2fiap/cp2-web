@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto Serif" sans-serif;
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Serif", sans-serif;
     line-height: 1.6;
     color: #222;
   }
@@ -34,7 +37,6 @@
   
   .hero {
     position: relative;
-    text-align: center;
     overflow: hidden;
   }
   
@@ -63,11 +65,21 @@
     text-decoration: none;
     border-radius: 5px;
   }
+
+  .btn-home {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
   
   .modelos {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 10px;
     padding: 2rem 10%;
     background: #f5f5f5;
   }
@@ -88,16 +100,29 @@
   
   .especificacoes {
     text-align: center;
-    padding: 3rem 1rem;
+    margin-top: 20px;
     background: #fff;
+    margin: 0px;
+    padding: 0px;
   }
   
   .valores {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 10rem;
     margin-top: 1.5rem;
     flex-wrap: wrap;
+  }
+
+  strong {
+    font-size: 2rem;
+    color: #2579fe;
+  }
+
+  br {
+    padding: 0px;
+    font-weight: lighter;
+    margin: 0px;
   }
   
   .valores div {
@@ -123,4 +148,13 @@
     transform: translateY(0);
   }
   
-  
+  .h2-especificacoes {
+    font-size: 2rem
+  }
+
+  .especificacoes2 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin: 0px;
+    line-height: 1.1;
+  }
