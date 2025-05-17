@@ -1,0 +1,75 @@
+.sobre-futurista-bg {
+    min-height: 100vh;
+}
+
+.sobre-futurista {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #222;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 40px 32px;
+    color: #e0eafc;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.futurista-titulo {
+    font-family: 'Orbitron', 'Roboto Serif', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.sobre-hero h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sobre-hero p {
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+
+.sobre-missao, .sobre-valores, .sobre-futuro {
+    margin-bottom: 32px;
+}
+
+.sobre-missao h3,
+.sobre-valores h3,
+.sobre-futuro h3 {
+    color: white;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+.sobre-valores ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sobre-valores li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sobre-valores li span {
+    font-size: 1.3em;
+}
+
+@media (max-width: 700px) {
+    .sobre-futurista {
+        padding: 20px 8px;
+        margin: 16px 4px;
+    }
+    .futurista-titulo {
+        font-size: 1.6rem;
+    }
+    .sobre-hero h2 {
+        font-size: 1.3rem;
+    }
+}

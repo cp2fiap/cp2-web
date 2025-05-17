@@ -13,9 +13,8 @@
     <div class="container">
       <h1>Electric Car</h1>
       <nav>
-        <a href="./src/pages/modeloscarros.html">Nossos carros</a>
-        <a href="./src/pages/modeloscarros.html">Compra</a>
-        <a href="./src/pages/sobre.html">Sobre marca</a>
+        <a href="#modelosoutros">Outros Modelos</a>
+        <a href="./src/pages/sobre.html">Sobre Marca</a>
       </nav>
     </div>
   </header>
@@ -25,7 +24,7 @@
     <img src="./src/assets/carrohome.png" alt="Carro Elétrico" />
     <div class="hero-text">
     </div>
-    <a href="#modelos" class="btn-home">Explorar Modelo ></a>
+    <h2 class="h2-informacoes">Mais informações</h2>
   </section>
 
   <section class="modelos">
@@ -55,28 +54,70 @@
   </section>
 
   <section>
-    <h3>Outros Modelos da Loja</h3>
+    <h3 class="outrosmodelos" id="modelosoutros">Outros Modelos da Loja</h3>
     <div class="modelos">
       <div class="modelo">
-        <img src="./src/assets/fotocarro1.png" alt="Modelo 1" />
-        <h3>Modelo 1</h3>
-        <p>Descrição do modelo 1.</p>
+        <img src="./src/assets/cd4.png" alt="Modelo 1" />
+        <h3>ID.4</h3>
+        <p>SUV 100% elétrico, com design moderno, autonomia de até 500 km e tecnologia inteligente para uma condução sustentável e confortável.
+Se quiser algo ainda mais enxuto, posso adaptar!</p>
       </div>
       <div class="modelo">
-        <img src="./src/assets/fotocarro2.png" alt="Modelo 2" />
-        <h3>Modelo 2</h3>
-        <p>Descrição do modelo 2.</p>
+        <img src="./src/assets/cybertruckphoto1.png" alt="Modelo 2" />
+        <h3>Cybertruck</h3>
+        <p>Picape elétrica futurista com design robusto, alta resistência, aceleração impressionante e autonomia de até 800 km — feita para qualquer terreno.</p>
       </div>
       <div class="modelo">
-        <img src="./src/assets/fotocarro3.png" alt="Modelo 3" />
+        <img src="./src/assets/renaultphoto1.png" alt="Modelo 3" />
         <h3>Modelo 3</h3>
-        <p>Descrição do modelo 3.</p>
+        <p>Compacto, eficiente e 100% elétrico, o E-Tech combina economia, tecnologia e mobilidade urbana sustentável com até 300 km de autonomia.</p>
       </div>
   </section>
 
-  <footer>
-    <p>© 2025 Electric Car. Todos os direitos reservados.</p>
-  </footer>
+  <section class="formulario">
+    <h3 class="h3-formulario">Fale Conosco</h3>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        <div class="contact-info">
+            <span>Email: electriccar@contato.com</span>
+            <span>Telefone: (99) 93955-9243</span>
+            <span>Endereço: Rua Exemplo, 123 - São Paulo, SP</span>
+        </div>
+        <div>
+            &copy; 2025 Electric Car. Todos os direitos reservados.
+        </div>
+    </div>
+</footer>
+
 
   
   <script src="./src/assets/css/js/"></script>
